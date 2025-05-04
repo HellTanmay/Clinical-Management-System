@@ -15,9 +15,9 @@ const Layout = ({children}) => {
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 <div className="h-8 w-8 bg-blue-500 rounded-md flex items-center justify-center">
-                  <span className="text-white font-bold">CM</span>
+                  <span className="text-white font-bold">BC</span>
                 </div>
-                <span className="ml-2 text-xl font-bold text-gray-900">ClinicManager</span>
+                <span className="ml-2 text-xl font-bold text-gray-900">Belthangady Clinic</span>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const Layout = ({children}) => {
                 Reports
               </Link>
               <Link
-                to="#"
+                to="/login"
                 className="ml-4 px-4 py-2 rounded-md text-sm font-medium text-white bg-blue-500 hover:bg-blue-600"
               >
                 Sign In
